@@ -23,6 +23,11 @@ const Cards = () => {
             flipCard();
         }
     }
+
+    function randomClick () {
+        let randomIndex = Math.floor(Math.random() * flashcardsList.length);
+        setIndex(randomIndex);
+    }
     
     const [isFlipped, setIsFlipped] = useState(false);
 
@@ -48,8 +53,10 @@ const Cards = () => {
                 </div>
                 
                 <div className='buttons'>
-                    <button className='card-buttons' onClick={previousClick}>Previous</button>
-                    <button className='card-buttons' onClick={nextClick}>Next</button>
+                    <button className='card-buttons' onClick={previousClick}><i class="fa-solid fa-arrow-left"></i></button>
+                    <button className='card-buttons' onClick={randomClick}><i class="fa-solid fa-dice-five"></i></button>
+                    <button className='card-buttons' onClick={nextClick}><i class="fa-solid fa-arrow-right"></i></button>
+                    
                 </div>
                 <h3 className="card-number">{index + 1} of {flashcardsList.length}</h3>
         </div>
