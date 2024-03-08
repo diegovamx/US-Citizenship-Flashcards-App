@@ -30,9 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-GIF ON IMGUR
-
-<img src='(https://imgur.com/gallery/awEctwX)' title='Video Walkthrough' alt='Video Walkthrough'/>
+<a href="https://imgur.com/gallery/awEctwX">GIF ON IMGUR</a>
 
 
 GIF created with [Kap](https://getkap.co/) for macOS
