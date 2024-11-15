@@ -182,7 +182,7 @@ export const flashcardsList = [
   },
   {
     question: 'What is the name of the Speaker of the House of Representatives now?',
-    answer: 'Nancy Pelosi'
+    answer: 'Mike Johnson'
   },
   {
     question: 'There are four amendments to the Constitution about who can vote. Describe one of them.',
